@@ -1,14 +1,14 @@
 {
-  "name": "bittorrent-dht-server",
+  "name": "bittorrent-dht-node",
   "version": "0.0.1",
-  "description": "Simple, robust, BitTorrent DHT server",
+  "description": "Simple, robust, BitTorrent DHT node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/groupsky/bittorrent-dht-server.git"
+    "url": "git+https://github.com/groupsky/bittorrent-dht-node.git"
   },
   "keywords": [
     "peer-to-peer",
@@ -22,10 +22,16 @@
     "bittorrent",
     "torrent"
   ],
-  "author": "Geno Roupsky",
+  "author": {
+    "name": "Geno Roupsky",
+    "url": "https://github.com/groupsky"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/groupsky/bittorrent-dht-server/issues"
+    "url": "https://github.com/groupsky/bittorrent-dht-node/issues"
   },
-  "homepage": "https://github.com/groupsky/bittorrent-dht-server#readme"
+  "homepage": "https://github.com/groupsky/bittorrent-dht-node#readme",
+  "dependencies": {
+    "debounce": "^1.0.0"
+  }
 }
